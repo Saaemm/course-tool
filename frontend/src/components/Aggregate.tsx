@@ -36,7 +36,6 @@ const NumericInput = (props: NumericInputProps) => {
       console.log("weird edge case");
     }
   };
-
   // only allow field to be temporarily blank
   // on unfocus, reset to last valid value
   const handleBlur: React.FocusEventHandler<HTMLInputElement> = (e) => {
@@ -103,6 +102,7 @@ const Aggregate = () => {
             </label>
           ))}
         </div>
+
       </div>
     </div>
   );
